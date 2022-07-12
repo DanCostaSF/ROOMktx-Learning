@@ -61,7 +61,6 @@ class NewUserActivity : AppCompatActivity() {
             return false
 
         userDao.insertUser(User(firstName, lastName))
-        print("alo")
 
         return true
 
